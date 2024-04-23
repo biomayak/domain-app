@@ -1,0 +1,51 @@
+.terminal {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  padding: 20px;
+  height: 40vh;
+  width: 60vw;
+  border: 2px solid #fff;
+
+  overflow: auto;
+}
+.terminal::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+.terminal::-webkit-scrollbar-track {
+  background-color: #000;
+}
+.terminal::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+.input-line {
+  display: flex;
+  align-items: flex-start;
+}
+
+.prompt {
+  display: inline;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+}
+
+.input-spacer {
+  width: 10px;
+}
+
+.command-input {
+  width: 100%;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+}
